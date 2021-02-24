@@ -1,0 +1,9 @@
+README:
+
+1.	To setup the DB connection and keys for the Holidays API, go to application.properties the values.
+2.	The project can be started by running the main method of HolidayFetcherApplication.java
+3.	To test you can either use the web browser or Postman with the following requests:
+	- Extract to DB 
+	http://localhost:8080/holidays/download
+	- Save to JSON and CSV files in the project directory 
+	http://localhost:8080/holidays/export
